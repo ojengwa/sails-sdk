@@ -1,0 +1,41 @@
+{
+  "name": "sails-sdk",
+  "version": "0.0.3",
+  "description": "Sails generator for creating project SDKs for various platforms. WIP",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "sdk",
+    "generator",
+    "sails",
+    "generate",
+    "plugin",
+    "android",
+    "ios",
+    "python"
+  ],
+  "author": "ojengwa",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bernard/sails-sdk.git"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "fs-extra": "*",
+    "mocha": "^2.4.5",
+    "reportback": "*",
+    "sails-generate": "*"
+  },
+  "sailsGenerator": {
+    "type": "sdk",
+    "behavior": "overrides `sails generate sdk`",
+    "sailsVersion": "~0.10.0"
+  }
+}
